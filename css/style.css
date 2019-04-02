@@ -33,4 +33,34 @@ body {
   /* The clip-path property uses x, y coordinates, starting from top left, top right, bottom right, bottom left */
   height: 95vh; 
   /* At every point, the height of the .header element should be 95% of the viewport height */
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  top: 40%; /* This is 50% of the height of the parent element */
+  left: 50%; /* This is 50% of the width of the parent element */
+  transform: translate(-50%, -50%); 
+  /* This is 40% for y coordinate and 50% for the x coordinate in relation to the element and not the element's parent */
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-align: center;
 }
