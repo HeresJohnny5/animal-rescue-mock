@@ -26,6 +26,7 @@ body {
     rgba(109, 213, 237, 0.7),
     rgba(33, 147, 176, 0.7)
   ), url('../img/krista-mangulsone-53122-unsplash.jpg');
+  /* Add Photo Credit: Photo by Krista Mangulsone on Unsplash */
   background-position: top;
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
