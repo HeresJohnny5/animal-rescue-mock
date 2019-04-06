@@ -91,7 +91,7 @@ body {
 
 /* ***** ABOUT US STYLES ***** */
 #about-us {
-  margin-top: 3em;
+  margin: 3em 0;
 }
 
 .section-header h2::after {
@@ -122,6 +122,7 @@ body {
 .typedjs-container {
   background-color: #e4856d;
   color: #fff;
+  height: 100%;
   padding: 5em;
   text-align: center;
 }
