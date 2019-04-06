@@ -117,3 +117,11 @@ body {
   padding: .25em;
   width: 52%;
 }
+
+/* ***** MAKE A DIFFERENCE STYLES ***** */
+.typedjs-container {
+  background-color: #e4856d;
+  color: #fff;
+  padding: 5em;
+  text-align: center;
+}
