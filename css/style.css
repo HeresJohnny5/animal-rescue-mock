@@ -13,13 +13,13 @@
 
 body {
   /* The body will act as the parent for all other elements and thus the font family applied to the body tag will get inherited by all the child elements of the body */
-  color: #777;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
 }
 
+/* ***** HERO IMAGE STYLES ***** */
 .header {
   background-image: linear-gradient(
     to right bottom,
@@ -87,4 +87,33 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+/* ***** ABOUT US STYLES ***** */
+#about-us {
+  margin-top: 3em;
+}
+
+.section-header h2::after {
+  background-color: #2193b0;
+  content: " ";
+  display: block;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.featurette-heading {
+  background-color: #2193b0;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  color: #fff;
+  font-weight: 300;
+  padding: .25em;
+  width: 52%;
 }
