@@ -119,10 +119,18 @@ body {
 }
 
 /* ***** MAKE A DIFFERENCE STYLES ***** */
+#make-a-difference {
+  margin-bottom: 3em;
+}
 .typedjs-container {
   background-color: #e4856d;
   color: #fff;
   height: 100%;
   padding: 5em;
   text-align: center;
+}
+
+/* ***** ADOPT STYLES ***** */
+#adopt {
+  background-color: #f0f0f0;
 }
