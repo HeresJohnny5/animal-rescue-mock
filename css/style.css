@@ -165,6 +165,10 @@ body {
   border-color: #2193b0;
 }
 
+.card-text:nth-child(even) {
+  margin-bottom: 0;
+}
+
 /* ***** QUOTE STYLES ***** */
 #quote {
   background-color: #2193b0;
