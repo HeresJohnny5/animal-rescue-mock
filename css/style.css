@@ -153,6 +153,7 @@ body {
 /* ***** ADOPT STYLES ***** */
 #adopt {
   background-color: #f0f0f0;
+  padding-bottom: 3em;
 }
 
 .btn-adopt {
@@ -162,4 +163,18 @@ body {
 .btn-adopt:hover {
   background-color: #2193b0;
   border-color: #2193b0;
+}
+
+/* ***** QUOTE STYLES ***** */
+#quote {
+  background-color: #2193b0;
+}
+
+.blockquote h2 {
+  color: #fff;
+  font-style: italic;
+  margin: 0 auto;
+  padding: 3em 0;
+  text-align: center;
+  width: 70%;
 }
