@@ -155,3 +155,11 @@ body {
   background-color: #f0f0f0;
 }
 
+.btn-adopt {
+  width: 100%;
+}
+
+.btn-adopt:hover {
+  background-color: #2193b0;
+  border-color: #2193b0;
+}
