@@ -127,7 +127,7 @@ body {
   background-color: #e4856d;
   color: #fff;
   height: 100%;
-  padding: 5em;
+  padding: 4em;
   text-align: center;
 }
 
@@ -195,6 +195,7 @@ body {
 
 /* ***** GET INVOLVED STYLES ***** */
 .involved-card {
+  background-color: #d9f2f7;
   border: none;
   text-align: center;
 }
@@ -205,4 +206,15 @@ i {
   margin: 0 auto;
   padding: .3em;
   text-align: center;
+}
+
+.btn-get-involved {
+  background-color: #e4856d;
+  color: #fff;
+  padding: .25em;
+  width: 100%;
+}
+
+.btn-get-involved:hover {
+  color: #fff;
 }
