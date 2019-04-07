@@ -192,3 +192,17 @@ body {
   padding-left: 1.5em;
   text-align: left;
 }
+
+/* ***** GET INVOLVED STYLES ***** */
+.involved-card {
+  border: none;
+  text-align: center;
+}
+
+i {
+  font-size: 4em;
+  color: #e4856d;
+  margin: 0 auto;
+  padding: .3em;
+  text-align: center;
+}
