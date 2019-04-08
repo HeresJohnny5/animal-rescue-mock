@@ -1,3 +1,8 @@
+/* SPINNER SCRIPT */
+$(document).ready(function(){
+  $('#spinner').fadeOut('slow');
+});
+
 /* TYPEDJS SCRIPT */
 var options = {
   backDelay: 500,
