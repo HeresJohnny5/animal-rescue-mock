@@ -133,6 +133,17 @@ body {
   text-align: center;
 }
 
+.btn-learn-how {
+  background-color: #2193b0;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.btn-learn-how:hover {
+  background-color: #1c829c;
+  color: #fff;
+}
+
 /* ***** BEST FRIEND STYLES ***** */
 #best-friend {
   background-image: url('../img/eric-ward-610868-unsplash.jpg');
