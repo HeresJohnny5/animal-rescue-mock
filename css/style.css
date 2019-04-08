@@ -278,3 +278,13 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  #footer {
+    padding: 2em 0;
+  }
+
+  .btn[type=submit] {
+    width: 100%;
+  }
+}
