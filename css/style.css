@@ -200,7 +200,7 @@ body {
   text-align: center;
 }
 
-i {
+#get-involved i {
   font-size: 4em;
   color: #e4856d;
   margin: 0 auto;
@@ -239,6 +239,29 @@ i {
 }
 
 /* ***** FOOTER STYLES ***** */
-footer {
+#footer {
   padding: 5em 0;
+}
+
+.footer-list a {
+  color: #adadad;
+  list-style: none;
+}
+
+.footer-list a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer i {
+  padding-right: .5em;
+}
+
+.email-link {
+  color: #fff;
+}
+
+.email-link:hover {
+  color: #fff;
+  text-decoration: none;
 }
