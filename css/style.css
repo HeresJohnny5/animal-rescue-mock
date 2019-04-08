@@ -218,3 +218,9 @@ i {
 .btn-get-involved:hover {
   color: #fff;
 }
+
+/* ***** PARTNERS STYLES ***** */
+#partners {
+  background-color: #2193b0;
+  padding: 3em 0;
+}
