@@ -216,6 +216,7 @@ i {
 }
 
 .btn-get-involved:hover {
+  background-color: #e0795f;
   color: #fff;
 }
 
@@ -223,4 +224,21 @@ i {
 #partners {
   background-color: #2193b0;
   padding: 3em 0;
+}
+
+#partners .section-header {
+  color: #fff;
+}
+
+#partners .section-header h2::after {
+  background-color: #fff;
+}
+
+#partners .section-header p {
+  margin: 3em 0 0 0;
+}
+
+/* ***** FOOTER STYLES ***** */
+footer {
+  padding: 5em 0;
 }
