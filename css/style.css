@@ -279,7 +279,26 @@ body {
   text-decoration: none;
 }
 
+@media (min-width: 575px) {
+  #partners p {
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
+  #partners img {
+    display: none;
+  }
+
+  #partners p {
+    color: #fff;
+    text-align: center;
+  }
+
+  #partners a:hover {
+    text-decoration: none;
+  }
+
   #footer {
     padding: 2em 0;
   }
