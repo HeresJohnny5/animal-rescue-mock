@@ -19,7 +19,21 @@ body {
   line-height: 1.7;
 }
 
-/* ***** SPINNERSTYLES ***** */
+/* ***** NAV STYLES ***** */
+nav {
+  z-index: 1;
+}
+
+.dropdown-menu.show {
+  border: 0;
+  margin: .5em 0 0 0;
+  padding: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #2193b0;
+  color: #fff;
+}
 
 /* ***** HERO IMAGE STYLES ***** */
 .header {

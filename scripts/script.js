@@ -1,7 +1,7 @@
 /* SPINNER SCRIPT */
-$(document).ready(function(){
-  $('#spinner').fadeOut('slow');
-});
+// $(document).ready(function(){
+//   $('#spinner').fadeOut('slow');
+// });
 
 /* TYPEDJS SCRIPT */
 var options = {
