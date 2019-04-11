@@ -1,0 +1,22 @@
+{
+  "name": "animal-rescue-mock",
+  "version": "1.0.0",
+  "description": "Landing page for animal-rescue-mock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeresJohnny5/animal-rescue-mock.git"
+  },
+  "author": "John Erickson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeresJohnny5/animal-rescue-mock/issues"
+  },
+  "homepage": "https://github.com/HeresJohnny5/animal-rescue-mock#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
