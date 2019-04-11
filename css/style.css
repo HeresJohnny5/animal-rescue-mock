@@ -310,6 +310,10 @@ nav {
     #partners a:hover {
       text-decoration: none;
     }
+
+    .colony-cafe {
+      justify-content: center;
+    }
   
     #footer {
       padding: 2em 0;
