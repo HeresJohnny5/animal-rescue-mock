@@ -1,8 +1,4 @@
 /* SPINNER SCRIPT */
-// $(document).ready(function(){
-//   $('#spinner').fadeOut('slow');
-// });
-
 function showSite() {
   // hide spinner
   document.querySelector('.spinner-container').style.display = 'none';
@@ -10,12 +6,10 @@ function showSite() {
   document.querySelector('.loading').style.display = 'block';
 }
 
-function something() {
+function guageRender() {
   // 2 images in CSS
   // ../img/krista-mangulsone-53122-unsplash.jpg
   // ../img/eric-ward-610868-unsplash.jpg
-
-  // set spinner
 
   let images = [
     './img/laula-co-567341-unsplash.jpg',
@@ -38,17 +32,19 @@ function something() {
   ];
 
   images.forEach(src => {
-    var img = document.createElement('img');
+    let img = document.createElement('img');
     img.src = src;
   });
 
-  showSite();
+  setTimeout(() => {
+    showSite();
+  }, 1000);
 }
 
-something();
+guageRender();
 
 /* TYPEDJS SCRIPT */
-var options = {
+let options = {
   backDelay: 500,
   backSpeed: 60,
   cursorChar: "|",
@@ -59,4 +55,4 @@ var options = {
   loop: true
 }
 
-var typed = new Typed(".typedjs-strings", options);
+let typed = new Typed(".typedjs-strings", options);
