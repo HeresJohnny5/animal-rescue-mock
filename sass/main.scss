@@ -1,0 +1,331 @@
+/* ***** BRAND ***** */
+/*
+  
+*/
+
+/* ***** UNIVERSAL STYLES ***** */
+* {
+  box-sizing: border-box;
+  /* Change the box model so that the borders and paddings are no longer added to the total width or the total height that is specified for a box */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* The body will act as the parent for all other elements and thus the font family applied to the body tag will get inherited by all the child elements of the body */
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/* ***** NAV STYLES ***** */
+nav {
+  z-index: 1;
+}
+
+.dropdown-menu.show {
+  border: 0;
+  margin: .5em 0 0 0;
+  padding: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #2193b0;
+  color: #fff;
+}
+
+/* ***** HERO IMAGE STYLES ***** */
+.header {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(109, 213, 237, 0.7),
+    rgba(33, 147, 176, 0.7)
+  ), url('../img/krista-mangulsone-53122-unsplash.jpg');
+  /* Add Photo Credit: Photo by Krista Mangulsone on Unsplash */
+  /* https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1450&q=80 */
+  background-position: top;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  /* The clip-path property uses x, y coordinates, starting from top left, top right, bottom right, bottom left */
+  height: 95vh; 
+  /* At every point, the height of the .header element should be 95% of the viewport height */
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%; /* This is 50% of the height of the parent element */
+  left: 50%; /* This is 50% of the width of the parent element */
+  transform: translate(-50%, -50%); 
+  /* This is 40% for y coordinate and 50% for the x coordinate in relation to the element and not the element's parent */
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.heading-primary-main {
+  animation: fadeInUp 1s ease-out;
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+.heading-primary-sub {
+  animation: fadeIn 2s ease-out;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ***** ABOUT US STYLES ***** */
+#about-us {
+  margin: 3em 0;
+}
+
+.section-header h2::after {
+  background-color: #2193b0;
+  content: " ";
+  display: block;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.featurette-heading {
+  background-color: #2193b0;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  color: #fff;
+  font-weight: 300;
+  padding: .25em;
+  width: 52%;
+}
+
+/* ***** MAKE A DIFFERENCE STYLES ***** */
+#make-a-difference {
+  margin-bottom: 3em;
+}
+.typedjs-container {
+  background-color: #e4856d;
+  color: #fff;
+  height: 100%;
+  padding: 4em;
+  text-align: center;
+}
+
+.btn-learn-how {
+  background-color: #2193b0;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.btn-learn-how:hover {
+  background-color: #1c829c;
+  color: #fff;
+}
+
+/* ***** BEST FRIEND STYLES ***** */
+#best-friend {
+  background-image: url('../img/eric-ward-610868-unsplash.jpg');
+  /* Add Photo Credit: Photo by Eric Ward on Unsplash */
+  /* https://images.unsplash.com/photo-1522276498395-f4f68f7f8454?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80 */
+  background-position: bottom;
+  background-size: cover;
+  height: 95vh; 
+  position: relative;
+}
+
+.best-friend-header {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+/* ***** ADOPT STYLES ***** */
+#adopt {
+  background-color: #f0f0f0;
+  padding-bottom: 3em;
+}
+
+.btn-adopt {
+  width: 100%;
+}
+
+.btn-adopt:hover {
+  background-color: #2193b0;
+  border-color: #2193b0;
+}
+
+.card-text:nth-child(even) {
+  margin-bottom: 0;
+}
+
+/* ***** QUOTE STYLES ***** */
+#quote {
+  background-color: #2193b0;
+}
+
+.blockquote-container {
+  margin: 0 auto;
+  padding: 3em 0;
+  text-align: center;
+  width: 70%;
+}
+
+.blockquote h2 {
+  color: #fff;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.blockquote-footer {
+  color: #fff;
+  padding-left: 1.5em;
+  text-align: left;
+}
+
+/* ***** GET INVOLVED STYLES ***** */
+.involved-card {
+  background-color: #d9f2f7;
+  border: none;
+  text-align: center;
+}
+
+#get-involved i {
+  font-size: 4em;
+  color: #e4856d;
+  margin: 0 auto;
+  padding: .3em;
+  text-align: center;
+}
+
+.btn-get-involved {
+  background-color: #e4856d;
+  color: #fff;
+  padding: .25em;
+  width: 100%;
+}
+
+.btn-get-involved:hover {
+  background-color: #e0795f;
+  color: #fff;
+}
+
+/* ***** PARTNERS STYLES ***** */
+#partners {
+  background-color: #2193b0;
+  padding: 3em 0;
+}
+
+#partners .section-header {
+  color: #fff;
+}
+
+#partners .section-header h2::after {
+  background-color: #fff;
+}
+
+#partners .section-header p {
+  margin: 3em 0 0 0;
+}
+
+/* ***** FOOTER STYLES ***** */
+#footer {
+  padding: 5em 0;
+}
+
+.footer-list a {
+  color: #adadad;
+  list-style: none;
+}
+
+.footer-list a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer i {
+  padding-right: .5em;
+}
+
+.email-link {
+  color: #fff;
+}
+
+.email-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ***** MEDIA QUERIES STYLES ***** */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 575px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #partners img {
+      display: none;
+    }
+  
+    #partners p {
+      color: #fff;
+      text-align: center;
+    }
+  
+    #partners a:hover {
+      text-decoration: none;
+    }
+
+    .colony-cafe {
+      justify-content: center;
+    }
+  
+    #footer {
+      padding: 2em 0;
+    }
+  
+    .btn[type=submit] {
+      width: 100%;
+    }
+  }
+
+@media (min-width: 576px) {
+  #partners p {
+    display: none;
+  }
+}
