@@ -1,7 +1,7 @@
 /* ***** BRAND ***** */
-/*
-  
-*/
+$color-white: #fff;
+$color-dark-cyan: #2193b0;
+$color-orange-red: #e4856d;
 
 /* ***** UNIVERSAL STYLES ***** */
 * {
@@ -31,8 +31,8 @@ nav {
 }
 
 .dropdown-item:hover {
-  background-color: #2193b0;
-  color: #fff;
+  background-color: $color-dark-cyan;
+  color: $color-white;
 }
 
 /* ***** HERO IMAGE STYLES ***** */
@@ -40,7 +40,7 @@ nav {
   background-image: linear-gradient(
     to right bottom,
     rgba(109, 213, 237, 0.7),
-    rgba(33, 147, 176, 0.7)
+    rgba($color-dark-cyan, 0.7)
   ), url('../img/krista-mangulsone-53122-unsplash.jpg');
   /* Add Photo Credit: Photo by Krista Mangulsone on Unsplash */
   /* https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1450&q=80 */
@@ -62,7 +62,7 @@ nav {
 }
 
 .heading-primary {
-  color: #fff;
+  color: $color-white;
   text-transform: uppercase;
 }
 
@@ -112,7 +112,7 @@ nav {
 }
 
 .section-header h2::after {
-  background-color: #2193b0;
+  background-color: $color-dark-cyan;
   content: " ";
   display: block;
   height: 2px;
@@ -127,9 +127,9 @@ nav {
 }
 
 .featurette-heading {
-  background-color: #2193b0;
+  background-color: $color-dark-cyan;
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
-  color: #fff;
+  color: $color-white;
   font-weight: 300;
   padding: .25em;
   width: 52%;
@@ -140,22 +140,22 @@ nav {
   margin-bottom: 3em;
 }
 .typedjs-container {
-  background-color: #e4856d;
-  color: #fff;
+  background-color: $color-orange-red;
+  color: $color-white;
   height: 100%;
   padding: 4em;
   text-align: center;
 }
 
 .btn-learn-how {
-  background-color: #2193b0;
+  background-color: $color-dark-cyan;
   border-radius: 20px;
-  color: #fff;
+  color: $color-white;
 }
 
 .btn-learn-how:hover {
   background-color: #1c829c;
-  color: #fff;
+  color: $color-white;
 }
 
 /* ***** BEST FRIEND STYLES ***** */
@@ -188,8 +188,8 @@ nav {
 }
 
 .btn-adopt:hover {
-  background-color: #2193b0;
-  border-color: #2193b0;
+  background-color: $color-dark-cyan;
+  border-color: $color-dark-cyan;
 }
 
 .card-text:nth-child(even) {
@@ -198,7 +198,7 @@ nav {
 
 /* ***** QUOTE STYLES ***** */
 #quote {
-  background-color: #2193b0;
+  background-color: $color-dark-cyan;
 }
 
 .blockquote-container {
@@ -209,13 +209,13 @@ nav {
 }
 
 .blockquote h2 {
-  color: #fff;
+  color: $color-white;
   font-style: italic;
   font-weight: 300;
 }
 
 .blockquote-footer {
-  color: #fff;
+  color: $color-white;
   padding-left: 1.5em;
   text-align: left;
 }
@@ -229,36 +229,36 @@ nav {
 
 #get-involved i {
   font-size: 4em;
-  color: #e4856d;
+  color: $color-orange-red;
   margin: 0 auto;
   padding: .3em;
   text-align: center;
 }
 
 .btn-get-involved {
-  background-color: #e4856d;
-  color: #fff;
+  background-color: $color-orange-red;
+  color: $color-white;
   padding: .25em;
   width: 100%;
 }
 
 .btn-get-involved:hover {
-  background-color: #e0795f;
-  color: #fff;
+  background-color: $color-orange-red;
+  color: $color-white;
 }
 
 /* ***** PARTNERS STYLES ***** */
 #partners {
-  background-color: #2193b0;
+  background-color: $color-dark-cyan;
   padding: 3em 0;
 }
 
 #partners .section-header {
-  color: #fff;
+  color: $color-white;
 }
 
 #partners .section-header h2::after {
-  background-color: #fff;
+  background-color: $color-white;
 }
 
 #partners .section-header p {
@@ -276,7 +276,7 @@ nav {
 }
 
 .footer-list a:hover {
-  color: #fff;
+  color: $color-white;
   text-decoration: none;
 }
 
@@ -285,11 +285,11 @@ nav {
 }
 
 .email-link {
-  color: #fff;
+  color: $color-white;
 }
 
 .email-link:hover {
-  color: #fff;
+  color: $color-white;
   text-decoration: none;
 }
 
@@ -303,7 +303,7 @@ nav {
     }
   
     #partners p {
-      color: #fff;
+      color: $color-white;
       text-align: center;
     }
   
