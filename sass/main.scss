@@ -222,20 +222,20 @@ nav {
   background-color: $color-dark-cyan;
 }
 
-.blockquote-container {
+#quote .blockquote-container {
   margin: 0 auto;
   padding: 3em 0;
   text-align: center;
   width: 70%;
 }
 
-.blockquote h2 {
+#quote .blockquote h2 {
   color: $color-white;
   font-style: italic;
   font-weight: 300;
 }
 
-.blockquote-footer {
+#quote .blockquote-footer {
   color: $color-white;
   padding-left: 1.5em;
   text-align: left;
@@ -314,6 +314,17 @@ nav {
   text-decoration: none;
 }
 
+/* ***** PET STYLES ***** */
+#pet .blockquote, #pet .blockquote-footer {
+  color: $color-orange-red;
+}
+
+.social-container {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
 /* ***** MEDIA QUERIES STYLES ***** */
 @media only screen 
   and (min-width: 320px) 
@@ -350,3 +361,8 @@ nav {
     display: none;
   }
 }
+
+
+
+
+
