@@ -325,6 +325,20 @@ nav {
   text-align: center;
 }
 
+#contact-us {
+  background-color: #e4856d;
+  color: $color-white;
+  padding: 3em;
+  text-align: center;
+}
+
+#contact-us i {
+  background-color: $color-dark-cyan;
+  border-radius: 100%;
+  font-size: 2.5em;
+  padding: .5em;
+}
+
 /* ***** MEDIA QUERIES STYLES ***** */
 @media only screen 
   and (min-width: 320px) 
